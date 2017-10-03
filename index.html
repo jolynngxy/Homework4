@@ -54,7 +54,7 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -66,10 +66,10 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">EDUCATION</a></li>
-        <li><a href="#">WORK EXPERIENCE</a></li>
-        <li><a href="#">COMMITTEE EXPERIENCE</a></li>
-        <li><a href="#">OTHER SKILLS</a></li>
+        <li><a href="#container1">EDUCATION |</a></li>
+        <li><a href="#container2">WORK EXPERIENCE |</a></li>
+        <li><a href="#">COMMITTEE EXPERIENCE |</a></li>
+        <li><a href="#">OTHER SKILLS |</a></li>
       </ul>
       </ul>
     </div>
@@ -77,8 +77,9 @@
 </nav>
 
 <!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-  
+<div class="container-fluid bg-1 text-center" id = container>
+  <br>
+  <br>
   <img src="https://s1.postimg.org/6utu3btulb/Untitled-1.jpg" class="img-circle" alt="Bird" width="350" height="350">
   <h2 >JOLYN NG</h2>
   <p> Singapore <br>
@@ -90,7 +91,7 @@
 
 
 <!-- Second Container (Grid) -->
-<div class="container-fluid bg-3 text-center">    
+<div class="container-fluid bg-3 text-center" id = container1>    
   <h2 class="margin">EDUCATION</h2><br>
   <div class="row">
     <div class="col-sm-2"> </div>
@@ -125,7 +126,7 @@
 </div>
 
 <!-- Third Container -->
-<div class="container-fluid bg-2 text-center">
+<div class="container-fluid bg-2 text-center" id = container2>
   <h2 class="margin">WORK EXPERIENCE</h2>
   <img src="https://res.cloudinary.com/crunchbase-production/image/upload/v1434656829/ciqmzuggmcjmz8bsfjp8.png" alt="Vanitee" width="400" height="150">
   <br>
@@ -147,6 +148,7 @@
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
   <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+  <p>Edited by Jolyn Ng </p>
 </footer>
 
 </body>
